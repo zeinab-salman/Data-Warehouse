@@ -1,40 +1,40 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: rgb(145, 84, 131);
-    font-weight: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(145, 84, 131);
+  font-weight: normal;
 }
 
 button:hover {
-    border: 2px solid rgb(234, 173, 222) !important;
-    opacity: 0.9;
-    transition: 0.3s;
+  border: 2px solid rgb(234, 173, 222) !important;
+  opacity: 0.9;
+  transition: 0.3s;
 }
 
 .lovenum {
-    margin-left: 10px;
-    font-size: larger;
-    border-radius: 50%;
-    padding: 5px;
+  margin-left: 10px;
+  font-size: larger;
+  border-radius: 50%;
+  padding: 5px;
 }
 
 .body {
-    background-color: white
+  background-color: white;
 }
 
 #btn-blueviolet {
-    background-color: rgb(187, 98, 190);
-    border: none;
+  background-color: rgb(187, 98, 190);
+  border: none;
 }
 
 #btn-red {
-    background-color: rgb(241, 76, 183);
-    border: none;
+  background-color: rgb(241, 76, 183);
+  border: none;
 }
 
 #btn-nav {
-    box-shadow: 1px 1px 5px rgb(231, 187, 238);
+  box-shadow: 1px 1px 5px rgb(231, 187, 238);
 }
 
 h1,
@@ -43,224 +43,250 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Oleo Script", system-ui;
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .arrow {
-    color: black;
-    font-size: small;
-    padding: 5px;
+  color: black;
+  font-size: small;
+  padding: 5px;
 }
 
 .oleo-script-regular {
-    font-family: "Oleo Script", system-ui;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .oleo-script-bold {
-    font-family: "Oleo Script", system-ui;
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 700;
+  font-style: normal;
 }
 
-
 .hero p {
-    width: 90%;
+  width: 90%;
 }
 
 .about {
-    width: 100%;
-    background-color: #feeff8;
-    border-radius: 10%;
+  width: 100%;
+  background-color: #feeff8;
+  border-radius: 10%;
 }
 
 .about p {
-    width: 100% !important;
+  width: 100% !important;
 }
 
 .border-rd-10 {
-    border-radius: 10%;
+  border-radius: 10%;
 }
 
 .we-are p {
-    width: 400px;
+  width: 400px;
 }
 
 .features .info p {
-    width: 400px;
+  width: 400px;
 }
 
 .features {
-    width: 100%;
+  width: 100%;
 }
 
 #active {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 .bg-white {
-    background-color: white;
+  background-color: white;
 }
 
 .features .card img {
-    position: absolute;
-    left: -40px;
-    top: 50px;
+  position: absolute;
+  left: -40px;
+  top: 50px;
 }
 
 .features .card {
-    position: relative;
+  position: relative;
 }
 
 .card p {
-    width: 200px;
+  width: 200px;
 }
 
 #card {
-    border: none;
+  border: none;
 }
 
 .features a {
-    text-decoration: double;
-    color: black;
+  text-decoration: double;
+  color: black;
 }
 
 #card4,
 #card1 {
-    background-color: #f0faf9;
-    border: none;
+  background-color: #f0faf9;
+  border: none;
 }
 
 #card2 {
-    background-color: #f6f0fd;
-    border: none;
+  background-color: #f6f0fd;
+  border: none;
 }
 
 #card3 {
-    background-color: #fef0f8;
-    border: none;
+  background-color: #fef0f8;
+  border: none;
 }
 
 .features .info p {
-    width: 500px;
+  width: 500px;
 }
 
 .testemonials .carousel1 {
-    background-color: blueviolet;
-    border-radius: 10%;
+  background-color: blueviolet;
+  border-radius: 10%;
 }
 
 .testemonials .carousel img {
-    border-radius: 50%;
-    border: 1px solid blueviolet;
+  border-radius: 50%;
+  box-shadow: 1px 1px 15px 0.5px blueviolet;
+  object-fit: cover;
 }
 
 .line {
-    height: 1px;
-    background-color: rgb(129, 129, 129);
-    border-radius: 20%;
+  height: 1px;
+  background-color: rgb(129, 129, 129);
+  border-radius: 20%;
 }
 
 .icon {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 #nav {
-    box-shadow: 1px 1px 4px rgb(145, 84, 131);
+  box-shadow: 1px 1px 4px rgb(145, 84, 131);
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
-    background-color: white !important;
-    width: 16px !important;
-    height: 16px !important;
-    border-radius: 50% !important;
+  background-color: white !important;
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50% !important;
 }
 
 .btn1 {
-    background-color: rgb(187, 98, 190) !important;
-    border: none !important;
-
+  background-color: rgb(187, 98, 190) !important;
+  border: none !important;
 }
 
 #card1:hover,
 #card2:hover,
 #card3:hover,
 #card4:hover {
-    background-color: rgb(240, 152, 230) !important;
-    color: white !important;
-    transform: translate(0px, -30px) !important;
-    transition: 1s;
+  background-color: rgb(240, 152, 230) !important;
+  color: white !important;
+  transform: translate(0px, -30px) !important;
+  transition: 1s;
 }
 
 .testemonials .card:hover {
-    background-color: rgb(230, 198, 253) !important;
-    color: white !important;
-    transform: translate(0px, -30px) !important;
-    transition: 1s;
+  background-color: rgb(230, 198, 253) !important;
+  color: white !important;
+  transform: translate(0px, -30px) !important;
+  transition: 1s;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1100px) {
+  .hero {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+  .hero p,
+  .features p,
+  .card p {
+    width: 100%;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+
+  .features img {
+    display: inline;
+  }
+
+  .hero p {
+    text-align: center;
+  }
+
+  .hero {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about img {
+    width: 100%;
+  }
+
+  .features p {
+    width: 100% !important;
+    font-size: small;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  .features .card img {
+    position: static;
+  }
+
+  .carousel-item {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+  }
+  .div-cards {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+  }
+  .carousel1 {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+  .hero {
+    height: 100vh;
+  }
 }
 
-@media(max-width:570px) {
-
-    .hero p,
-    .features p,
-    .card p {
-        width: 100%;
-    }
-
-    .hero img {
-        width: 100%;
-    }
-
-    .features img {
-        display: inline;
-    }
-
-    .hero p {
-        text-align: center;
-    }
-
-    .hero {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .hero .info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .about img {
-        width: 100%;
-    }
-
-    .about {
-        border-radius: 0%;
-    }
-
-    .features p {
-        width: 100% !important;
-        font-size: small;
-    }
-
-    p {
-        font-size: small;
-    }
-
-    .features .card img {
-        position: static;
-    }
-
-    .testemonials .carousel1 {
-        border-radius: 0% !important;
-    }
-
-    .hero {
-        height: 100vh;
-    }
-
+@media (max-width: 600px) {
+  .testemonials .carousel1 {
+    border-radius: 0% !important;
+  }
+  .about {
+    border-radius: 0% !important;
+  }
 }
